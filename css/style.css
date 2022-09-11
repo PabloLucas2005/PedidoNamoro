@@ -1,29 +1,45 @@
-body{
-  
-  background-color: pink;
-  color:white;
+body {
+  background: url(/img/background.jpg);
+  color: red;
+  text-align: justify;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
-p{
-  font-size:30px;
-  font-weight:bold;
-  
+p {
+  font-size: 29px;
+  font-weight: bold;
+  text-align: justify;
+  flex-wrap: nowrap;
+
 }
 
-button{
-  background-color:red;
-  color:white;
-  width:100px;
-  position:absolute;
+button {
+  background-color: red;
+  color: white;
+  width: 100px;
+  position: absolute;
 }
 
-.hidden{
-  
-  display:none;
+.hidden {
+
+  display: none;
 }
 
-#move{
-  left:200px;
+#move {
+  left: 200px;
 }
 
+#block {
 
+  width: 300px;
+  height: 300px;
+}
+
+.button {
+  background-color: red;
+  color: white;
+  width: 100px;
+  margin-right: 40px;
+
+}
